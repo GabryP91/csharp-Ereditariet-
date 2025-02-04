@@ -30,6 +30,7 @@
 4. Scrivere una classe Studente con attributi: nome, cognome, isee e annoCorso, scegliere il tipo
    adatto. Creare due classi figlie, Triennale e Magistrale, e creare un metodo che, accettando in
    input un parametro polimorfo, permetta di calcolare le tasse che lo studente dovrà pagare.
+   
       • Se l’isee è minore di 10mila e lo studente è in corso →500
       • Se l’isee è maggiore di 10 mila ma minore di 30mila e lo studente è in corso →700
       • Se l’isee è maggiore di 30 mila, se lo studente è in corso → 1200
