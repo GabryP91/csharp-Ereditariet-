@@ -88,7 +88,7 @@ namespace csharp_Ereditarietà
                 {
 
                     case 1:
-                        Console.WriteLine("ESERCIZIO 1-2\n");
+                        Console.WriteLine("ESERCIZIO 1-2-3\n");
 
                         Console.Write("\nInserisci il numero massimo di click prima che la lampadina si rompa: ");
 
@@ -155,7 +155,7 @@ namespace csharp_Ereditarietà
 
                         break;
                     case 2:
-                        Console.WriteLine("ESERCIZIO 3-4\n");
+                        Console.WriteLine("ESERCIZIO 4\n");
 
                         Studente[] studenti = new Studente[6];
 
