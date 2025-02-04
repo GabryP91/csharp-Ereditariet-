@@ -32,6 +32,7 @@
    input un parametro polimorfo, permetta di calcolare le tasse che lo studente dovrà pagare.
    
       • Se l’isee è minore di 10mila e lo studente è in corso →500
+   
       • Se l’isee è maggiore di 10 mila ma minore di 30mila e lo studente è in corso →700
       • Se l’isee è maggiore di 30 mila, se lo studente è in corso → 1200
       • Paga il 10 % in più per ogni anno di fuori corso (tutti i casi precedenti), fino ad un massimo di 3 anni fuoricorso, poi la tassa non aumenta più.
