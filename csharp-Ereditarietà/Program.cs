@@ -272,7 +272,7 @@ namespace csharp_Ereditarietà
                 {    
                     //Controlla lo stato attuale e lo cambia se è Spenta
                     stato = (stato == "Spenta") ? "Accesa" : "Spenta";
-                    Console.WriteLine($"Stato della lampadina: {stato}");
+                    Console.WriteLine($"Lampadina {stato}");
                 }
             }
         }  
@@ -400,6 +400,7 @@ namespace csharp_Ereditarietà
             {
                 // Calcolo dell'aumento per fuori corso (massimo 3 anni) -> Math.Min restituisce il minimo tra i due valori(x,3)
                 int anniConsiderati = Math.Min(AnnifuoriCorso, 3);
+
                 tassaBase = 1200 * (1 + 0.10 * anniConsiderati);
             }
 
