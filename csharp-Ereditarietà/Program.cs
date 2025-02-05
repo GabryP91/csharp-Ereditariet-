@@ -202,6 +202,11 @@ namespace csharp_Ereditarietà
             c. I metodi sopra citati
 
          Per testare la classe creare un oggetto della classe Lampadina che ammetta un numero massimo di click deciso dall’utente.
+
+        Modificare la classe Lampadina in modo che tutte le lampadine condividano l’informazione sulla
+        presenza di corrente elettrica nell’impianto. Lo stato di una lampadina quando non c’è corrente
+        può essere solo spento o rotto. 
+        Per testare la classe, offrire all’utente anche la possibilità di staccare o riattivare la corrente.
      
     */
 
