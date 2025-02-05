@@ -249,12 +249,20 @@ namespace csharp_Ereditarietà
             if (statoCorrente == false)
             {
                 Console.WriteLine("\nNon c'è corrente.....ripristinare prima la corrente!\n");
+
+                if (Stato == "Accesa")
+                {
+                    //Controlla lo stato attuale e lo cambia se è Spenta
+                    Stato = "Spenta";
+                    Console.WriteLine($"\nLampadina => {Stato}");
+                }
+                
             }
 
             else
             {
                 
-                if (stato == "Rotta")
+                if (Stato == "Rotta")
                 {
                     Console.WriteLine("La lampadina è rotta e non può più essere accesa o spenta.");
                     return;
@@ -264,7 +272,7 @@ namespace csharp_Ereditarietà
 
                 if (clickEffettuati > maxClick)
                 {
-                    stato = "Rotta";
+                    Stato = "Rotta";
                         Console.WriteLine("La lampadina si è rotta dopo troppi click!");
                 }
 
@@ -272,7 +280,6 @@ namespace csharp_Ereditarietà
                 {    
                     //Controlla lo stato attuale e lo cambia se è Spenta
                     stato = (stato == "Spenta") ? "Accesa" : "Spenta";
-                    Console.WriteLine($"Lampadina {stato}");
                 }
             }
         }  
@@ -324,7 +331,8 @@ namespace csharp_Ereditarietà
         public void Premi()
         {
             Lampadina.Click();
-            Console.WriteLine($"Lampadina: {lampadina.Stato}");
+
+            Console.WriteLine($"\nLampadina => {lampadina.Stato}");
         }
 
     }
