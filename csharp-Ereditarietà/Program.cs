@@ -165,7 +165,7 @@ namespace csharp_Ereditarietà
                         Triennale persona3 = new Triennale("Topolino", "Verdi", 1200, 3, new DateTime(2009, 9, 15));
                         Triennale persona4 = new Triennale("Pippo", "Neri", 20000, 0, new DateTime(2017, 4, 09));
                         Magistrale persona5 = new Magistrale("Anna", "Gialli", 400000, 2, new DateTime(2022, 5, 1));
-                        Magistrale persona6 = new Magistrale("Pluto", "Blu", 350000, 4, new DateTime(2022, 9, 18));
+                        Magistrale persona6 = new Magistrale("Pluto", "Blu", 350000, 0, new DateTime(2022, 9, 18));
 
                         studenti[0] = persona1;
                         studenti[1] = persona2;
